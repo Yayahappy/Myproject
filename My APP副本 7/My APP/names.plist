@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>nation</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>阿昌族</string>
+				<key>icon</key>
+				<string>阿昌族</string>
+				<key>intro</key>
+				<string>上座部佛教、万物有灵、祖先崇拜</string>
+				<key>music</key>
+				<string>New Classic.mp3</string>
+				<key>musicName</key>
+				<string>New Classic</string>
+			</dict>
+		</array>
+		<key>name</key>
+		<string>A</string>
+	</dict>
+	<dict>
+		<key>nation</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>白族</string>
+				<key>icon</key>
+				<string>白族</string>
+				<key>intro</key>
+				<string>苍山洱海之滨</string>
+				<key>music</key>
+				<string>One more try.mp3</string>
+				<key>musicName</key>
+				<string>One more try</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>保安族</string>
+				<key>icon</key>
+				<string>保安族</string>
+				<key>intro</key>
+				<string>擅长打制铁器的民族</string>
+				<key>music</key>
+				<string>游爱民族.mp3</string>
+				<key>musicName</key>
+				<string>游爱民族</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>布朗族</string>
+				<key>icon</key>
+				<string>布朗族</string>
+				<key>intro</key>
+				<string>布朗山上的古老茶农</string>
+				<key>music</key>
+				<string>即刻出发.mp3</string>
+				<key>musicName</key>
+				<string>即刻出发</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>布依族</string>
+				<key>icon</key>
+				<string>布依族</string>
+				<key>intro</key>
+				<string>瀑布群中的民族</string>
+				<key>music</key>
+				<string>彩色的黑.mp3</string>
+				<key>musicName</key>
+				<string>彩色的黑</string>
+			</dict>
+		</array>
+		<key>name</key>
+		<string>B</string>
+	</dict>
+</array>
+</plist>

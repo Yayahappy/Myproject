@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bj.png" translatesAutoresizingMaskIntoConstraints="NO" id="kbG-Wn-8Z1">
+                                <rect key="frame" x="-11" y="-15" width="386" height="699"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="afanda.png" translatesAutoresizingMaskIntoConstraints="NO" id="a62-Gr-AUB">
+                                <rect key="frame" x="76" y="122" width="235" height="201"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2l-9B-Iv6">
+                                <rect key="frame" x="163" y="33" width="49" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZH-Nk-bgg">
+                                <rect key="frame" x="93" y="79" width="188" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hun-sO-B2Q">
+                                <rect key="frame" x="0.0" y="151" width="60" height="34"/>
+                                <inset key="contentEdgeInsets" minX="-7" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="提示" backgroundImage="btn_left.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="realize:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KNi-MM-y9y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cuT-Ol-sUN">
+                                <rect key="frame" x="0.0" y="268" width="68" height="33"/>
+                                <state key="normal" title="大图" backgroundImage="btn_left.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="realize:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hdE-qE-R8w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfx-QU-OJp">
+                                <rect key="frame" x="319" y="151" width="56" height="34"/>
+                                <state key="normal" title="帮助" backgroundImage="btn_right.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="realize:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ni-Il-JTq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rnz-W7-CfG">
+                                <rect key="frame" x="319" y="268" width="56" height="35"/>
+                                <state key="normal" title="下一题" backgroundImage="btn_right.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="realize:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7hG-3o-N1w"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="bigimgbtn" destination="cuT-Ol-sUN" id="8J2-Bh-GqN"/>
+                        <outlet property="dictlable" destination="yZH-Nk-bgg" id="0hw-6x-ghx"/>
+                        <outlet property="helpbtn" destination="Gfx-QU-OJp" id="HjF-Et-gQG"/>
+                        <outlet property="imageView" destination="a62-Gr-AUB" id="pWr-dS-1eK"/>
+                        <outlet property="nexbtn" destination="Rnz-W7-CfG" id="MAW-n8-AWU"/>
+                        <outlet property="numlable" destination="G2l-9B-Iv6" id="xDC-tf-K7t"/>
+                        <outlet property="rembtn" destination="Hun-sO-B2Q" id="6tZ-aP-rbd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-356.5" y="446.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="afanda.png" width="640" height="702"/>
+        <image name="bj.png" width="320" height="480"/>
+        <image name="btn_left.png" width="70" height="36"/>
+        <image name="btn_right.png" width="70" height="36"/>
+    </resources>
+</document>

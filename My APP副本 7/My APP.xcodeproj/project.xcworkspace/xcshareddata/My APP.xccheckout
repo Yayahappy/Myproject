@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>503E2AAE-7AAB-4223-857F-D7435D11487B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>My APP</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C9A36C44C70DA25F09324880D9A668FFD3C96440</key>
+		<string>github.com:Yayahappy/FirstTogether.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>My APP副本 2/My APP.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C9A36C44C70DA25F09324880D9A668FFD3C96440</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Yayahappy/FirstTogether.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C9A36C44C70DA25F09324880D9A668FFD3C96440</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C9A36C44C70DA25F09324880D9A668FFD3C96440</string>
+			<key>IDESourceControlWCCName</key>
+			<string>myapp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

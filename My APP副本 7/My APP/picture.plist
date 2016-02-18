@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>picture</key>
+		<string>阿昌族</string>
+		<key>name</key>
+		<string>阿昌族</string>
+		<key>music</key>
+		<string>New Classic.mp3</string>
+		<key>musicName</key>
+		<string>New Classic</string>
+	</dict>
+	<dict>
+		<key>picture</key>
+		<string>白族</string>
+		<key>name</key>
+		<string>白族</string>
+		<key>music</key>
+		<string>One more try.mp3</string>
+		<key>musicName</key>
+		<string>One more try</string>
+	</dict>
+	<dict>
+		<key>picture</key>
+		<string>保安族</string>
+		<key>name</key>
+		<string>保安族</string>
+		<key>music</key>
+		<string>游爱民族.mp3</string>
+		<key>musicName</key>
+		<string>游爱民族</string>
+	</dict>
+	<dict>
+		<key>picture</key>
+		<string>布朗族</string>
+		<key>name</key>
+		<string>布朗族</string>
+		<key>music</key>
+		<string>即刻出发.mp3</string>
+		<key>musicName</key>
+		<string>即刻出发</string>
+	</dict>
+	<dict>
+		<key>picture</key>
+		<string>布依族</string>
+		<key>name</key>
+		<string>布依族</string>
+		<key>music</key>
+		<string>彩色的黑.mp3</string>
+		<key>musicName</key>
+		<string>彩色的黑</string>
+	</dict>
+</array>
+</plist>

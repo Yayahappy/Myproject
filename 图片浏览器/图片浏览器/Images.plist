@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>0</string>
+		<key>desc</key>
+		<string>美丽童话</string>
+		<key>url</key>
+		<string>http://www.ha.xinhuanet.com/hnxw/yljd/2015-10/09/c_1116762377.htm</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>1</string>
+		<key>desc</key>
+		<string>斑斓梦境!</string>
+		<key>url</key>
+		<string>http://www.ha.xinhuanet.com/hnxw/yljd/2015-10/09/c_1116762377.htm</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>2</string>
+		<key>desc</key>
+		<string>愿望你想好了吗？</string>
+		<key>url</key>
+		<string>http://www.ha.xinhuanet.com/hnxw/yljd/2015-10/09/c_1116762377.htm</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>3</string>
+		<key>desc</key>
+		<string>温暖阳光，唤醒！</string>
+		<key>url</key>
+		<string>http://www.ha.xinhuanet.com/hnxw/yljd/2015-10/09/c_1116762377.htm</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>4</string>
+		<key>desc</key>
+		<string>努力奔跑！</string>
+		<key>url</key>
+		<string>http://www.ha.xinhuanet.com/hnxw/yljd/2015-10/09/c_1116762377.htm</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>5</string>
+		<key>desc</key>
+		<string>航行海上,心飞扬！</string>
+		<key>url</key>
+		<string>http://gb.cri.cn/42071/2015/10/08/7551s5125144.htm</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CyanSquare.png" translatesAutoresizingMaskIntoConstraints="NO" id="hll-fi-91i">
+                                <rect key="frame" x="28" y="44" width="109" height="109"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MagentaSquare.png" translatesAutoresizingMaskIntoConstraints="NO" id="BnM-Ro-eLX">
+                                <rect key="frame" x="127" y="207" width="109" height="109"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YellowSquare.png" translatesAutoresizingMaskIntoConstraints="NO" id="u8O-2B-JML">
+                                <rect key="frame" x="218" y="372" width="109" height="109"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="CyanSquare" destination="hll-fi-91i" id="tNk-AJ-ikh"/>
+                        <outlet property="MagentaSquare" destination="BnM-Ro-eLX" id="ubo-N5-8K2"/>
+                        <outlet property="YellowSquare" destination="u8O-2B-JML" id="ifA-dO-xa9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="475.5" y="402.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CyanSquare.png" width="100" height="100"/>
+        <image name="MagentaSquare.png" width="100" height="100"/>
+        <image name="YellowSquare.png" width="100" height="100"/>
+    </resources>
+</document>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8t3-iL-ltP">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="aHK-kL-R7R">
+            <objects>
+                <viewController id="8t3-iL-ltP" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="crU-Wu-e0C"/>
+                        <viewControllerLayoutGuide type="bottom" id="O3U-aR-HQR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zKz-Mn-vqb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uN5-sw-KkS">
+                                <rect key="frame" x="158" y="54" width="46" height="30"/>
+                                <state key="normal" title="下载"/>
+                                <connections>
+                                    <action selector="download:" destination="8t3-iL-ltP" eventType="touchUpInside" id="5AA-CS-03W"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXR-wu-vog">
+                                <rect key="frame" x="288" y="83" width="61" height="29"/>
+                                <state key="normal" title="Resume"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Wf-dr-09D">
+                                <rect key="frame" x="51" y="170" width="287" height="447"/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9YC-df-hNs">
+                                <rect key="frame" x="0.0" y="142" width="360" height="2"/>
+                            </progressView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyW-8e-HXx">
+                                <rect key="frame" x="20" y="83" width="54" height="28"/>
+                                <state key="normal" title="Cancel"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="CancelBtn" destination="hyW-8e-HXx" id="YcF-p9-BDi"/>
+                        <outlet property="ResumeBtn" destination="AXR-wu-vog" id="rAZ-Qm-FXH"/>
+                        <outlet property="downloadBtn" destination="uN5-sw-KkS" id="ivG-Vh-bl7"/>
+                        <outlet property="imageView" destination="1Wf-dr-09D" id="knT-fe-uw5"/>
+                        <outlet property="progressView" destination="9YC-df-hNs" id="Akz-1w-bph"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yUB-3N-8Qk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="17.5" y="252.5"/>
+        </scene>
+    </scenes>
+</document>
